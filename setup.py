@@ -27,4 +27,11 @@ setup(
     [ckan.plugins]
 	disqus = ckanext.disqus.plugin:Disqus
 	""",
+	message_extractors={
+        'ckanext': [
+            ('**.py', 'python', None),
+            ('**.js', 'javascript', None),
+            ('**/templates/**.html', 'ckan', None),
+        ],
+    }
 )

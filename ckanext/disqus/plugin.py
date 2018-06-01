@@ -8,6 +8,7 @@ import time
 from ckan.common import request
 from ckan.lib.helpers import url_for_static_or_external
 import ckan.plugins as p
+from ckan.lib.plugins import DefaultTranslation
 
 disqus_translations = {
     'de': 'de',
@@ -34,7 +35,7 @@ disqus_translations = {
 log = logging.getLogger(__name__)
 
 
-class Disqus(p.SingletonPlugin):
+class Disqus(p.SingletonPlugin, DefaultTranslation):
     '''
     Insert javascript fragments into package pages and the home page to allow
     users to view and create comments on any package.
