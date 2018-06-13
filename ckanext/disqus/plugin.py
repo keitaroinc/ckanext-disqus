@@ -43,6 +43,8 @@ class Disqus(p.SingletonPlugin, DefaultTranslation):
     p.implements(p.IConfigurable)
     p.implements(p.IConfigurer)
     p.implements(p.ITemplateHelpers)
+    p.implements(p.ITranslation)
+    
 
     def configure(self, config):
         '''

@@ -8,22 +8,22 @@ msgstr ""
 "Project-Id-Version: disqus 0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-06-01 15:19+0200\n"
-"PO-Revision-Date: 2018-06-01 15:19+0200\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2018-06-09 00:36+0200\n"
 "Language: mk\n"
 "Language-Team: mk <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 2.0.8\n"
 
 #: ckanext/disqus/templates/disqus_comments.html:45
 #: ckanext/disqus/templates/disqus_comments.html:46
 msgid "comments powered by"
-msgstr ""
+msgstr "коментари поддржани од"
 
 #: ckanext/disqus/templates/disqus_recent.html:3
 msgid "Recent\tComments"
-msgstr ""
-
+msgstr "Последни\tкоментари"
