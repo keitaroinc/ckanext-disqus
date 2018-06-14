@@ -22,7 +22,7 @@ msgstr ""
 #: ckanext/disqus/templates/disqus_comments.html:45
 #: ckanext/disqus/templates/disqus_comments.html:46
 msgid "comments powered by"
-msgstr "коментари поддржани од"
+msgstr "коментари овозможени од"
 
 #: ckanext/disqus/templates/disqus_recent.html:3
 msgid "Recent\tComments"
